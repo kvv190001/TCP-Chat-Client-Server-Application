@@ -1,5 +1,4 @@
 # TCP-Chat-Client-Server-Application
-------------------------------------
 
 Description:  This TCP-based chat application allows multiple clients to communicate with each other through a chat server. The server manages user registrations, broadcasts, private messaging, and user exits. When a client connects, it sends a registration message with a username, and the server verifies the username before allowing the user to join the chat room.
 
@@ -34,9 +33,9 @@ Message Format:
     - MSG <username> <message>: Forward chat messages.
     - ERR <errorcode>: Error message for registration issues or message delivery.
 
-Server-side Error Codes:
-0: Username already taken.
-1: Username too long.
-2: Username contains spaces.
-3: Unknown user for private message.
-4: Unknown message format.
+Server-side Error Codes:  
+0: Username already taken.  
+1: Username too long.  
+2: Username contains spaces.  
+3: Unknown user for private message.  
+4: Unknown message format.  
